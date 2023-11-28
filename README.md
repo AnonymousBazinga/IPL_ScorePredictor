@@ -4,7 +4,7 @@ The existing score predictor used in the IPL is based only on run rate (ex. if t
 
 ## Data
 
-Most of the data comes from a Kaggle dataset. You cna read more about it here - https://www.kaggle.com/datasets/rajsengo/indian-premier-league-ipl-all-seasons.
+Most of the data comes from a Kaggle dataset. You can read more about it here - https://www.kaggle.com/datasets/rajsengo/indian-premier-league-ipl-all-seasons.
 I also used webscraping from https://t20-head-to-head.com/statistics-by-ipl-venue/# this website to get the average stadium score for the various venues of the 2023 IPL.
 
 Only the required columns (runs, wickets, overs, home team, etc.) were extracted and formatted on excel for feeding into the model. Only data from 2022 was used to make the model learn based on present data rather than past playing styles (ex. more aggressive scoring, higher average scores)
